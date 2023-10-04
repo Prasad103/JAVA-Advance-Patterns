@@ -1,4 +1,5 @@
-public static void solidRhombus(int n) {
+public class Solid_rhombus {
+ public static void solidRhombus(int n) {
     //outer loop 
     for(int i=1; i<=n; i++) {
         //spaces - (n-1)
@@ -12,5 +13,9 @@ public static void solidRhombus(int n) {
         }
 
         System.out.println();
+    }
+ }
+    public static void main(String args[]) {
+        solidRhombus(5);
     }
 }
